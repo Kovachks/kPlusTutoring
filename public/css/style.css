@@ -3,7 +3,8 @@
 	width: 325px;
 }
 #header {
-	height: 190px;
+	height: 200px;
+	background-color: #515353;
 }
 #nav {
 	width: 100%;
@@ -55,7 +56,6 @@
 	top: 50px;
 	margin: 0 5%;
 	padding: 2%;
-	background-color: white;
 	font-size: 1.25em
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
