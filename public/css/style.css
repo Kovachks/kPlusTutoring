@@ -18,6 +18,8 @@
 	text-decoration: none;
 }
 .navLink {
+	display: inline-block;
+	margin:0;
 	text-decoration: none;
 	height: 50px;
 	width: 125px;
@@ -25,6 +27,7 @@
 	font-size: 1.25em;
 }
 .navLinkSelected {
+	display: inline-block;
 	height: 50px;
 	width: 125px;
 	color: white;
@@ -41,8 +44,8 @@
 	position: static;
 	height: 600px;
 	width: 100%;
-	background-image: "./images/kaylaLogo.png";
-	background-color: #515353;
+	background-image: "../images/backgroundImage.png";
+/*	background-color: #515353;*/
 }
 .mainContent {
 	position: relative;
@@ -52,4 +55,24 @@
 	padding: 2%;
 	background-color: white;
 	font-size: 1.25em
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.navLink {
+		font-size: 1.5em;
+		height: 75px;
+		padding: 10px 0 0 0;
+	}
+	.navLinkSelected {
+		font-size: 1.5em;
+		height: 75px;
+	}	
+	#nav {
+		height: 75px;
+	}
+	#buttonDiv {
+		height: 75px;
+	}
+	.navButton {
+		height: 75px
+	}
 }
