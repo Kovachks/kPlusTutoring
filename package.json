@@ -1,0 +1,28 @@
+{
+  "name": "kplustutoring",
+  "version": "1.0.0",
+  "description": "Color Pallete:  Primary - #66c0bf Secondary - #515353",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kovachks/kplustutoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kovachks/kplustutoring/issues"
+  },
+  "homepage": "https://github.com/Kovachks/kplustutoring#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "handlebars": "^4.0.10",
+    "path": "^0.12.7"
+  }
+}
