@@ -10,6 +10,7 @@
 	background-color: #66c0bf;
 }
 .navButton {
+	display: inline-block;	
 	line-height: 50px;
 	height: 50px;
 	width: 125px;	
@@ -36,6 +37,7 @@
 }
 .navLink:hover{
 	color: #515353;
+	background-color: #57a8a7;
 }
 .navLinkSelected:hover{
 	color: #515353;
@@ -58,21 +60,29 @@
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.navLink {
-		font-size: 1.5em;
-		height: 75px;
-		padding: 10px 0 0 0;
+		font-size: 2em;
+		padding: 40px 0 0 0;
+		height: 85px;
+		width: 100%;
 	}
 	.navLinkSelected {
-		font-size: 1.5em;
-		height: 75px;
+		font-size: 2em;
+		height: 100%;
+		width: 100%;
 	}	
 	#nav {
-		height: 75px;
+		height: 125px;
 	}
 	#buttonDiv {
-		height: 75px;
+		vertical-align: center;
 	}
 	.navButton {
-		height: 75px
+		height: 125px;
+		width: 24.5%;
+	}
+	.mainContent {
+		font-size: 1.75em;
+		padding: 5%;
+		width: 80%;
 	}
 }
