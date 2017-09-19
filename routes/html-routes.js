@@ -11,6 +11,15 @@ var session = require('express-session')
 module.exports = function(app) {
 	app.get("/", function(req, res) {
 		res.render("home");
+	});
+	app.get("/About", function(req, res) {
+		res.render("about");
+	});
+	app.get("/Services", function(req, res) {
+		res.render("services");
 	})
+	app.get("/Contact", function(req, res) {
+		res.render("contact");
+	})	
 }
 

@@ -2,8 +2,54 @@
 	height: 200px;
 	width: 325px;
 }
+#header {
+	height: 190px;
+}
+#nav {
+	width: 100%;
+	background-color: #66c0bf;
+}
+.navButton {
+	line-height: 50px;
+	height: 50px;
+	width: 125px;	
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+}
+.navLink {
+	text-decoration: none;
+	height: 50px;
+	width: 125px;
+	color: white;
+	font-size: 1.25em;
+}
+.navLinkSelected {
+	height: 50px;
+	width: 125px;
+	color: white;
+	text-decoration: underline;
+	font-size: 1.25em;	
+}
+.navLink:hover{
+	color: #515353;
+}
+.navLinkSelected:hover{
+	color: #515353;
+}
 .mainDiv {
+	position: static;
 	height: 600px;
-	width: 800px;
+	width: 100%;
 	background-image: "./images/kaylaLogo.png";
+	background-color: #515353;
+}
+.mainContent {
+	position: relative;
+	width: 86%;
+	top: 50px;
+	margin: 0 5%;
+	padding: 2%;
+	background-color: white;
+	font-size: 1.25em
 }
