@@ -1,14 +1,28 @@
+
 .logo {
-	height: 175px;
-	width: 285px;
+	height: 100px;
+	width: 200px;
 }
 #header {
-	height: 175px;
+	height: 100px;
 /*	background-color: #515353;*/
+}
+.mainContainer {
+	position:static;
+	width: 80%;
+	background-color: white;
+	margin: 75px auto;
+	z-index: 1;
+}
+#container {
+	position: static;
+	background-color: white;
+	z-index: 1;
 }
 #nav {
 	width: 100%;
 	background-color: #66c0bf;
+	border-bottom: 2px solid #515353;
 }
 .navButton {
 	display: inline-block;	
@@ -99,5 +113,9 @@
 		font-size: 1.75em;
 		padding: 5%;
 		width: 80%;
+	}
+	.mainContainer {
+		width: 100%;
+		margin: 0;
 	}
 }
