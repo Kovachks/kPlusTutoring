@@ -116,6 +116,7 @@
 	}	
 	#nav {
 		height: 125px;
+		margin: 115px 0 0 0;
 	}
 	#buttonDiv {
 		vertical-align: center;
@@ -132,6 +133,24 @@
 	.mainContainer {
 		width: 100%;
 		margin: 0;
+	}
+	.logo {
+		height: 200px;
+		width: 300px;
+		margin: 5px 0 0 8px;
+	}
+	.linkedInBut {
+		height: 120px;
+		width: 120px;
+		margin: 0 0 40px 0;	
+	}
+	.linkedInLink {
+		position: relative;
+		display: inline-block;
+		height: 120px;
+		width: 120px;
+		left: 52%;
+		margin: 0 0 20px 0;
 	}
 }
 
