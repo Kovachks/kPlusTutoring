@@ -1,7 +1,8 @@
 
 .logo {
 	height: 100px;
-	width: 200px;
+	width: 150px;
+	margin:3px 0 0 3px;
 }
 #header {
 	height: 100px;
@@ -23,6 +24,7 @@
 	width: 100%;
 	background-color: #66c0bf;
 	border-bottom: 2px solid #515353;
+	margin:6px 0 0 0;
 }
 .navButton {
 	display: inline-block;	
