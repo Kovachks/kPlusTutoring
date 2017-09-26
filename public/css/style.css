@@ -2,7 +2,6 @@
 .logo {
 	height: 100px;
 	width: 150px;
-	margin:3px 0 0 3px;
 }
 #header {
 	height: 100px;
@@ -24,7 +23,6 @@
 	width: 100%;
 	background-color: #66c0bf;
 	border-bottom: 2px solid #515353;
-	margin:6px 0 0 0;
 }
 .navButton {
 	display: inline-block;	
@@ -59,13 +57,33 @@
 .navLinkSelected:hover{
 	color: #515353;
 }
+.contactForm {
+	border: 3px solid #515353;
+	margin: 25px 10%;
+	font-size: 25px;
+}
+.inputs {
+	margin: 10px;
+	align-content: center;
+}
+input {
+	width: 60%;
+}
+textarea {
+	width: 60%;
+	height: 150px;
+	overflow: auto;
+}
+.contactButton {
+	width: 15%;
+	height: 50px;
+}
 .mainDiv {
 	position: static;
-	height: 700px;
+	height: 800px;
 	width: 100%;
 	margin: 0 0 300px 0;
 	background-image: "../images/backgroundImage.png";
-/*	background-color: #515353;*/
 }
 .mainContent {
 	width: 86%;
@@ -151,7 +169,7 @@
 		display: inline-block;
 		height: 120px;
 		width: 120px;
-		left: 52%;
+		left: 40%;
 		margin: 0 0 40px 0;
 	}
 	.copyright {
@@ -170,13 +188,13 @@
 		margin: 0 0 20px 0;	
 	}
 	.linkedInLink {
-		float:none;
+		float:left;
 		position: relative;
 		display: inline-block;
 		height: 60px;
 		width: 60px;
 		left: 60%;
-		margin: 0 50px 20px 0;
+		margin: 0 0 20px 0;
 	}
 
 }
